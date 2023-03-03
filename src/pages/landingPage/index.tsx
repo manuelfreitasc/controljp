@@ -326,7 +326,7 @@ function LandingPage() {
 
   return (
     <>
-      <header className="w-full h-[100vh] bg-[url('back-image.svg')] bg-no-repeat bg-cover bg-right flex flex-col  min-[600px]:justify-between overflow-hidden">
+      <header className="w-full h-[100vh] bg-[url('assets/back-image.svg')] bg-no-repeat bg-cover bg-right flex flex-col  min-[600px]:justify-between overflow-hidden">
         <div className="container mx-auto px-8 my-8 ">
           <div className="w-full flex min-[600px]:items-center  justify-between pt-2 pb-2  max-[600px]:gap-7">
             <img src="logo.svg" alt="" className="max-[600px]:w-[180px]" />
@@ -532,7 +532,7 @@ function LandingPage() {
         </section>
 
         <section className="w-full   bg-black" id="products">
-          <div className="h-full bg-[url('br-barrs.svg')] bg-no-repeat bg-cover">
+          <div className="h-full bg-[url('assets/br-barrs.svg')] bg-no-repeat bg-cover">
             <div className="flex  pt-28 pb-32 items-center container mx-auto px-8">
               <div className="w-full  h-full flex flex-col    gap-9 ">
                 <div className="flex flex-col   gap-2">
